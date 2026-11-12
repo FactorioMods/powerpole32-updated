@@ -1,9 +1,15 @@
 {
-    "name": "PowerPole32",
-    "version": "1.0.5",
-    "title": "Power Pole 32",
-    "author": "Lexxy Fox",
-    "factorio_version": "2.0",
-    "dependencies": ["base"],
-    "description": "Increases the range of big electric poles to 32."
+  "name": "powerpole32-updated",
+  "version": "1.0.0",
+  "title": "Power Pole 32: Updated",
+  "author": "Lexxy Fox; FactorioMods (Factorio 2.1 port)",
+  "factorio_version": "2.1",
+  "dependencies": [
+    "base >= 2.1.24",
+    "! PowerPole32"
+  ],
+  "description": "Factorio 2.1 compatibility fork of PowerPole32. Increases the range of big electric poles to 32.",
+  "migrates_from": [
+    "PowerPole32"
+  ]
 }
